@@ -24,14 +24,15 @@
 }
 
 .users-table .ant-pagination {
+  margin: 0px !important;
   padding: 16px 0px !important;
   border-top: 1px solid #ffffff24;
   display: flex;
   justify-content: center;
 }
 
-.users-table .ant-pagination button {
-  color: white;
+.users-table .ant-pagination li button {
+  color: white !important;
 }
 
 .users-table .ant-pagination .ant-pagination-item-active {
