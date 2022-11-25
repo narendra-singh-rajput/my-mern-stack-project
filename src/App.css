@@ -1,38 +1,80 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.users-table {
+  width: 90%;
+  margin-top: 80px;
+}
+
+.users-table .ant-table,
+.users-table .ant-table-cell,
+.users-table .ant-pagination {
+  background-color: black !important;
+  color: white !important;
+}
+
+.users-table .ant-table-cell:hover {
+  background-color: #ffffff1a !important;
+  color: white !important;
+}
+
+.users-table .ant-pagination {
+  padding: 16px 0px !important;
+  border-top: 1px solid #ffffff24;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.users-table .ant-pagination button {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.users-table .ant-pagination .ant-pagination-item-active {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.users-table .ant-pagination .ant-pagination-item-active:hover {
+  border-color: white !important;
+}
+
+.users-table .ant-pagination .ant-pagination-item-active a {
+  color: white !important;
+}
+
+.users-table .title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.users-table .ant-table-title {
+  padding-bottom: 0px !important;
+}
+
+.ant-table-title {
+  text-align: right;
+}
+
+.common-btn-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.common-btn-wrapper button {
+  width: 45% !important;
+  height: 45px;
+}
+
+.common-btn-wrapper button:hover {
+  background-color: #ffffff26;
+}
+
+.user-from {
+  margin: 30px 0px;
 }
