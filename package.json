@@ -2,7 +2,7 @@
   "name": "my-mern-stack-project",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000",
+  "proxy": "https://my-mern-stack-project.herokuapp.com",
   "engines": {
     "node": "16.16.0",
     "npm": "8.11.0"
