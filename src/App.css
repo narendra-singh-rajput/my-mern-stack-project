@@ -36,12 +36,12 @@
 }
 
 .users-table .ant-pagination .ant-pagination-item-active {
-  background-color: #000000 !important;
-  border-color: #000000 !important;
+  background-color: #465353 !important;
+  border-color: #465353 !important;
 }
 
 .users-table .ant-pagination .ant-pagination-item-active:hover {
-  border-color: white !important;
+  border-color: #465353 !important;
 }
 
 .users-table .ant-pagination .ant-pagination-item-active a {
