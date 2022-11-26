@@ -14,12 +14,12 @@
 .users-table .ant-table,
 .users-table .ant-table-cell,
 .users-table .ant-pagination {
-  background-color: black !important;
+  background-color: #23323299 !important;
   color: white !important;
 }
 
 .users-table .ant-table-cell:hover {
-  background-color: #ffffff1a !important;
+  background-color: #7b8484 !important;
   color: white !important;
 }
 
@@ -58,6 +58,10 @@
   padding-bottom: 0px !important;
 }
 
+.users-table .ant-table-thead tr th:last-child {
+  text-align: center;
+}
+
 .ant-table-title {
   text-align: right;
 }
@@ -73,7 +77,7 @@
 }
 
 .common-btn-wrapper button:hover {
-  background-color: #ffffff26;
+  background-color: #ffffff33;
 }
 
 .user-from {
