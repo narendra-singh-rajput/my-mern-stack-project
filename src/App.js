@@ -142,7 +142,7 @@ function App() {
     return (
       <div className="title-wrapper">
         <div className="title-box">
-          <h2>Userss</h2>
+          <h2>Users</h2>
         </div>
 
         <Button
