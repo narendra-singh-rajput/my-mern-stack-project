@@ -57,6 +57,7 @@
 .users-table .title-wrapper button {
   width: 150px;
   height: 50px;
+  /* test in stag */
 }
 
 .users-table .ant-table-title {
