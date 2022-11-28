@@ -54,6 +54,11 @@
   align-items: center;
 }
 
+.users-table .title-wrapper button {
+  width: 150px;
+  height: 50px;
+}
+
 .users-table .ant-table-title {
   padding-bottom: 0px !important;
 }
